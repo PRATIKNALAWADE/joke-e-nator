@@ -1,0 +1,42 @@
+*{
+padding: 0;
+margin: 0;
+
+}
+
+body{
+    background-color: orange;
+    color: azure;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    width: 60%;
+    height: 400px
+}
+
+h1{
+    text-align: center;
+}
+h3{
+    color: blue;
+}
+
+button{
+    margin: 3rem;
+    height: 2rem;
+    width: 6rem;
+    font-size: large;
+    background-color: transparent;
+    color: orange;
+    border-color: aliceblue;
+}
